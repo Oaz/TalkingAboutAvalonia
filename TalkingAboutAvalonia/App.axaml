@@ -1,0 +1,21 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:TalkingAboutAvalonia"
+             x:Class="TalkingAboutAvalonia.App"
+             x:DataType="local:AppContext"
+             RequestedThemeVariant="{Binding ThemeVariant}">
+
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme />
+        <StyleInclude Source="avares://AvaloniaEdit/Themes/Fluent/AvaloniaEdit.xaml" />
+        <Style Selector="TextBlock">
+            <Setter Property="FontFamily" Value="Roboto" />
+        </Style>
+    </Application.Styles>
+    
+    
+</Application>

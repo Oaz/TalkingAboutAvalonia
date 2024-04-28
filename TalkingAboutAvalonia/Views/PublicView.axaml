@@ -1,0 +1,28 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:TalkingAboutAvalonia.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+             x:Class="TalkingAboutAvalonia.Views.PublicView"
+             x:DataType="vm:PublicViewModel">
+    <Design.DataContext>
+        <vm:DesignPublicViewModel />
+    </Design.DataContext>
+    <Grid ColumnDefinitions="*,Auto" RowDefinitions="*,Auto">
+        <!-- <Viewbox Grid.ColumnSpan="2" Margin="50" Stretch="Uniform"> -->
+        <!--     <ContentControl  Content="{Binding Driver.CurrentPage}" /> -->
+        <!-- </Viewbox> -->
+        <ContentControl Grid.ColumnSpan="2" Margin="20" Content="{Binding Driver.CurrentPage}" />
+        <TextBlock
+            Grid.Column="0" Grid.Row="1"
+            HorizontalAlignment="Center" VerticalAlignment="Center"
+            Text="{Binding Driver.CurrentPage.Title}" />
+        <ContentControl
+            Grid.Column="1" Grid.Row="1"
+            Content="{Binding Driver}" />
+        <Button
+            Grid.Column="0" Grid.Row="1"
+            HotKey="s" IsVisible="False" Command="{Binding OpenSpeakerPad}" />
+    </Grid>
+</UserControl>

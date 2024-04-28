@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="48cm" height="24cm" viewBox="136 104 960 461" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1008.93" cy="334.25" rx="86.0673" ry="229"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1008.93" y="338.131">
+        <tspan x="1008.93" y="338.131">Model</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #e97979; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="391.275" y="161.733" width="288.725" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="535.638" y="184.614">
+        <tspan x="535.638" y="184.614">RemotePlayViewModel</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #66b85b; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="204.025" y="161.733" width="90.5" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="249.275" y="184.614">
+        <tspan x="249.275" y="184.614">GameView</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #87afd8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="850.155" y="134.733" width="141.25" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="920.78" y="157.614">
+        <tspan x="920.78" y="157.614">ISeat</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #e97979; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="559.275" y="237.5" width="195.2" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="656.875" y="260.381">
+        <tspan x="656.875" y="260.381">RegisterToGameViewModel</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #e97979; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="538.084" y="503.5" width="161.15" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="618.659" y="526.381">
+        <tspan x="618.659" y="526.381">LocalStageViewModel</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #e97979; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="471.114" y="424" width="142.7" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="542.464" y="446.881">
+        <tspan x="542.464" y="446.881">FramingViewModel</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #e97979; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="376.345" y="350.5" width="174.25" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="463.47" y="373.381">
+        <tspan x="463.47" y="373.381">StageControlViewModel</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #87afd8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="851.6" y="180.5" width="98.1" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900.65" y="203.381">
+        <tspan x="900.65" y="203.381">PlayRemote</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #87afd8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="896.8" y="503.405" width="103.2" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="948.4" y="526.287">
+        <tspan x="948.4" y="526.287">Stage</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #87afd8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="846.519" y="410.5" width="131.481" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="912.259" y="433.381">
+        <tspan x="912.259" y="433.381">Player</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #87afd8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="850" y="237.595" width="139.7" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="919.85" y="260.476">
+        <tspan x="919.85" y="260.476">DefaultGameCode</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #66b85b; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="137.825" y="237.5" width="156.7" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="216.175" y="260.381">
+        <tspan x="216.175" y="260.381">RegisterToGameView</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #66b85b; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="155.975" y="292.5" width="138.55" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="225.25" y="315.381">
+        <tspan x="225.25" y="315.381">PlayerControlView</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #66b85b; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="158.775" y="350.595" width="135.75" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="226.65" y="373.476">
+        <tspan x="226.65" y="373.476">StageControlView</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #66b85b; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="190.325" y="423.905" width="104.2" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="242.425" y="446.787">
+        <tspan x="242.425" y="446.787">FramingView</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #66b85b; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="205.075" y="503.595" width="89.45" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="249.8" y="526.476">
+        <tspan x="249.8" y="526.476">StageView</tspan>
+      </text>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="535.638" y="180.733">
+      <tspan x="535.638" y="180.733"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="656.875" y="256.5">
+      <tspan x="656.875" y="256.5"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="920.78" y="153.733">
+      <tspan x="920.78" y="153.733"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="900.65" y="199.5">
+      <tspan x="900.65" y="199.5"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="948.4" y="522.405">
+      <tspan x="948.4" y="522.405"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="912.259" y="429.5">
+      <tspan x="912.259" y="429.5"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="618.659" y="522.5">
+      <tspan x="618.659" y="522.5"></tspan>
+    </text>
+    <g>
+      <rect style="fill: #e97979; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="491.35" y="292.5" width="177.05" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="579.875" y="315.381">
+        <tspan x="579.875" y="315.381">PlayerControlViewModel</tspan>
+      </text>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="542.464" y="443">
+      <tspan x="542.464" y="443"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="463.47" y="369.5">
+      <tspan x="463.47" y="369.5"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="579.875" y="311.5">
+      <tspan x="579.875" y="311.5"></tspan>
+    </text>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="607.819,199.733 607.819,218.617 608.075,218.617 608.075,227.764 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="608.075,235.264 603.075,225.264 608.075,227.764 613.075,225.264 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="463.456,199.733 463.456,274.612 463.47,274.612 463.47,339.754 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="463.47,347.254 458.47,337.254 463.47,339.754 468.47,337.254 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="507.032,388.5 507.032,406.25 506.789,406.25 506.789,414.264 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="506.789,421.764 501.789,411.764 506.789,414.264 511.789,411.764 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="535.638,199.733 535.638,246.117 535.613,246.117 535.613,282.764 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="535.613,290.264 530.613,280.264 535.613,282.764 540.613,280.264 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="578.139,462 578.139,482.75 578.371,482.75 578.371,493.764 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="578.371,501.264 573.371,491.264 578.371,493.764 583.371,491.264 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="680,171.233 765.077,171.233 765.077,153.733 840.419,153.733 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="847.919,153.733 837.919,158.733 840.419,153.733 837.919,148.733 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="680,190.233 765.297,190.233 765.297,199.5 840.858,199.5 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="848.358,199.5 838.358,204.5 840.858,199.5 838.358,194.5 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="919.85" y="256.595">
+      <tspan x="919.85" y="256.595"></tspan>
+    </text>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="755.481,256.5 802.236,256.5 802.236,256.595 839.255,256.595 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="846.755,256.595 836.755,261.595 839.255,256.595 836.755,251.595 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="550.595,369.5 879.389,369.5 879.389,400.764 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="879.389,408.264 874.389,398.264 879.389,400.764 884.389,398.264 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="668.4,311.5 912.259,311.5 912.259,400.764 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="912.259,408.264 907.259,398.264 912.259,400.764 917.259,398.264 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="699.234,513 879.389,513 879.389,458.236 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="879.389,450.736 884.389,460.736 879.389,458.236 874.389,460.736 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="699.234,532 798.017,532 798.017,531.905 887.064,531.905 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="894.564,531.905 884.564,536.905 887.064,531.905 884.564,526.905 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1008.93" y="334.25">
+      <tspan x="1008.93" y="334.25"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="216.175" y="256.5">
+      <tspan x="216.175" y="256.5"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="225.25" y="311.5">
+      <tspan x="225.25" y="311.5"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="226.65" y="369.595">
+      <tspan x="226.65" y="369.595"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="242.425" y="442.905">
+      <tspan x="242.425" y="442.905"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="249.275" y="180.733">
+      <tspan x="249.275" y="180.733"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="249.8" y="522.595">
+      <tspan x="249.8" y="522.595"></tspan>
+    </text>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="294.525,180.733 342.396,180.733 342.396,180.733 380.53,180.733 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="388.03,180.733 378.03,185.733 380.53,180.733 378.03,175.733 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="294.525,256.5 426.9,256.5 426.9,256.5 549.539,256.5 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="557.039,256.5 547.039,261.5 549.539,256.5 547.039,251.5 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="294.525,311.5 392.435,311.5 392.435,311.5 480.608,311.5 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="488.108,311.5 478.108,316.5 480.608,311.5 478.108,306.5 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="294.525,369.595 334.932,369.595 334.932,369.5 365.603,369.5 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="373.103,369.5 363.103,374.5 365.603,369.5 363.103,364.5 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="294.525,442.905 382.315,442.905 382.315,443 460.369,443 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="467.869,443 457.869,448 460.369,443 457.869,438 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="294.525,522.595 416.304,522.595 416.304,522.5 528.348,522.5 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="535.848,522.5 525.848,527.5 528.348,522.5 525.848,517.5 "/>
+    </g>
+  </g>
+</svg>

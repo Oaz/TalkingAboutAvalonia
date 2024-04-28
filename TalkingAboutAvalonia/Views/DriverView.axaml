@@ -1,0 +1,21 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:TalkingAboutAvalonia.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="100"
+             x:Class="TalkingAboutAvalonia.Views.DriverView"
+             x:DataType="vm:DriverViewModel">
+    <UserControl.Styles>
+        <Style Selector="Button">
+            <Setter Property="FontSize" Value="48"/>
+            <Setter Property="Padding" Value="0"/>
+        </Style>
+    </UserControl.Styles>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="{Binding Index}" />
+        <Button HotKey="Left" FontFamily="/Assets/Noto_Sans_Symbols_2/NotoSansSymbols2-Regular.ttf#Noto Sans Symbols 2" Command="{Binding MoveBackward}">⇦</Button>
+        <Button HotKey="Right" FontFamily="/Assets/Noto_Sans_Symbols_2/NotoSansSymbols2-Regular.ttf#Noto Sans Symbols 2" Command="{Binding MoveForward}">⇨</Button>
+        <Button HotKey="t" IsVisible="False" Command="{Binding SwitchTheme}" />
+    </StackPanel>
+</UserControl>

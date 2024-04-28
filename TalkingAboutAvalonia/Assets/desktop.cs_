@@ -1,0 +1,24 @@
+class Program
+{
+  [STAThread]
+  public static void Main(string[] args) => BuildAvaloniaApp()
+    .StartWithClassicDesktopLifetime(args);
+
+  public static AppBuilder BuildAvaloniaApp()
+    => AppBuilder.Configure<App.App>()
+      .UsePlatformDetect()
+      .WithInterFont()
+      .SetCadenceService(Observable.Interval)
+      .UseMqttWithTcp()
+      .SetUrlOpener(OpenUrl)
+      .LogToTrace()
+      .UseReactiveUI();
+  
+  private static void OpenUrl(string url)
+  {
+    using var proc = new Process();
+    proc.StartInfo.UseShellExecute = true;
+    proc.StartInfo.FileName = url;
+    proc.Start();
+  }
+}

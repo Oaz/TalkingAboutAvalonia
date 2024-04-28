@@ -1,0 +1,20 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:TalkingAboutAvalonia.ViewModels.Pages"
+             mc:Ignorable="d" d:DesignWidth="1400" d:DesignHeight="900"
+             x:Class="TalkingAboutAvalonia.Views.Pages.SideBySidePageView"
+             x:DataType="pages:SideBySidePageViewModel">
+    <Design.DataContext>
+        <pages:DesignSideBySidePageViewModel />
+    </Design.DataContext>
+    <Grid ColumnDefinitions="*,*" RowDefinitions="*">
+        <Viewbox Grid.Column="0" Margin="10" Stretch="Uniform">
+            <ContentControl Content="{Binding Left}" />
+        </Viewbox>
+        <Viewbox Grid.Column="1" Margin="10" Stretch="Uniform">
+            <ContentControl Content="{Binding Right}" />
+        </Viewbox>
+    </Grid>
+</UserControl>

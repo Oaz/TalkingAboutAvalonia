@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="20cm" height="7cm" viewBox="221 67 395 137" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <rect style="fill: #e97979; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="345.3" y="165.733" width="94.95" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="392.775" y="188.614">
+        <tspan x="392.775" y="188.614">View Model</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #66b85b; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="222.622" y="165.733" width="52.4" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="248.822" y="188.614">
+        <tspan x="248.822" y="188.614">View</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #87afd8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="554.298" y="165.733" width="60.5" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="584.548" y="188.614">
+        <tspan x="584.548" y="188.614">Model</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="274.972" y1="184.733" x2="335.664" y2="184.733"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="343.164,184.733 333.164,189.733 335.664,184.733 333.164,179.733 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="440.15" y1="184.733" x2="544.562" y2="184.733"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="552.062,184.733 542.062,189.733 544.562,184.733 542.062,179.733 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" points="287.26,100.27 287.26,100.418 261.922,100.418 261.922,155.997 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="261.922,163.497 256.922,153.497 261.922,155.997 266.922,153.497 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="550.164" y="71.5286">
+      <tspan x="550.164" y="71.5286"></tspan>
+    </text>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="369.038,165.733 369.038,137.001 368.835,137.001 368.835,120.506 "/>
+      <polygon style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="373.835,120.506 368.835,110.506 363.835,120.506 "/>
+    </g>
+    <g>
+      <rect style="fill: #e97979; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x="287.26" y="68.2699" width="163.15" height="24"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="368.835" y="84.1511">INotifyPropertyChanged</text>
+      <rect style="fill: #e97979; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x="287.26" y="92.2699" width="163.15" height="16"/>
+      <text font-size="9.6" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="289.76" y="103.181">+event PropertyChanged</text>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" points="569.423,165.733 569.423,131.885 416.513,131.885 416.513,155.997 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="416.513,163.497 411.513,153.497 416.513,155.997 421.513,153.497 "/>
+    </g>
+  </g>
+</svg>

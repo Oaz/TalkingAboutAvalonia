@@ -1,0 +1,27 @@
+namespace Leaquid.UserInterface.ViewModels;
+
+public class RegisterToGameViewModel : ReactiveObject {
+  public RegisterToGameViewModel() {
+    GameCode = IAppContext._.DefaultGameCode;
+    this
+      .WhenPropertyChanged(x => x.GameCode)
+      .Subscribe(p =>
+        GameCode = ValidGameCode(p.Value!)
+      );
+  }
+  
+  private static string ValidGameCode(string input) => 
+    new (input.ToUpper().Where(char.IsUpper).Take(6).ToArray());
+  
+  public string GameCode {
+    get => _gameCode;
+    set => this.RaiseAndSetIfChanged(ref _gameCode, value);
+  }
+  private string _gameCode;
+  
+  public bool Entered {
+    get => _entered;
+    set => this.RaiseAndSetIfChanged(ref _entered, value);
+  }
+  private bool _entered;
+}

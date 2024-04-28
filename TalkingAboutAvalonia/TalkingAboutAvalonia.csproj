@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <AvaloniaResource Include="Assets\**"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)"/>
+        <PackageReference Include="Avalonia.Labs.Qr" Version="11.0.10.1" />
+        <PackageReference Include="Avalonia.Svg.Skia" Version="11.0.0.18" />
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="$(AvaloniaVersion)"/>
+        <PackageReference Include="Avalonia.Fonts.Inter" Version="$(AvaloniaVersion)"/>
+        <PackageReference Include="Avalonia.ReactiveUI" Version="$(AvaloniaVersion)"/>
+        <PackageReference Include="Avalonia.AvaloniaEdit" Version="$(AvaloniaVersion)"/>
+        <PackageReference Include="AvaloniaEdit.TextMate" Version="$(AvaloniaVersion)"/>
+        <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+        <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)"/>
+<!--        <PackageReference Include="Markdown.Avalonia" Version="11.0.2" />-->
+<!--        <PackageReference Include="SkiaSharp.QrCode" Version="0.7.0" />-->
+        <PackageReference Include="TextMateSharp.Grammars" Version="1.0.56" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Assets\draft\mvvm_dynamicdata0.dia" />
+      <UpToDateCheckInput Remove="Assets\draft\mvvm_reactiveui4.dia" />
+      <UpToDateCheckInput Remove="Assets\draft\mvvm_reactiveui_detailed.dia" />
+    </ItemGroup>
+    
+</Project>

@@ -1,0 +1,41 @@
+public class Flood {  
+  public void Update(IEnumerable<Point> added, IEnumerable<Point> removed) {
+    Drops.Edit(drops =>
+    {
+      drops.AddOrUpdate(added.Select(p => new Drop(p.X, p.Y)));
+      drops.Remove(removed);
+    });
+    _updated.OnNext(true);
+  }
+  
+  public record Drop {
+    public Drop(int x, int y) => Position = new Point(x, y);
+    public Point Position { get; }
+  }
+
+  public IObservable<bool> Updated => _updated;
+  private readonly Subject<bool> _updated = new();
+  public SourceCache<Drop, Point> Drops { get; }
+}
+
+public class FloodViewModel : ReactiveObject {
+  public FloodViewModel(Flood flood) {
+    flood.Drops.Connect()
+      .Bind(out ReadOnlyObservableCollection<Flood.Drop> drops)
+      .Subscribe();
+
+    var bufferIndex = 0;
+    bufferIndex = Draw();
+    flood.Updated.Subscribe(_ => { bufferIndex = Draw(); });
+    
+    int Draw() {
+      bufferIndex = 1 - bufferIndex;
+      buffers[bufferIndex].Clear(SKColors.Bisque);
+      buffers[bufferIndex].DrawRect(sourceRect, paint);
+      foreach (var drop in drops)
+        buffers[bufferIndex].SetPixel(drop.Position, _waterColors[_random.Next(0,4)]);
+      Image = buffers[bufferIndex].Image;
+      return bufferIndex;
+    }
+  }
+}

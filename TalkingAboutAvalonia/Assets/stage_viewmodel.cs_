@@ -1,0 +1,38 @@
+public class StageViewModel : ReactiveObject, IFramed
+{
+  public StageViewModel(Stage stage)
+  {
+    var sourceActors = new SourceList<IActor>();
+    sourceActors.Connect()
+      .Bind(out _actors)
+      .Subscribe();
+      
+    Flood = new FloodViewModel(stage.Flood);
+    sourceActors.Add(Flood);
+    foreach (var wall in stage.Walls)
+      NewColoredRectangle(wall.Bounds, Brushes.DarkSlateGray);
+    foreach (var sink in stage.Sinks)
+      NewColoredRectangle(sink.Bounds, _waterColor);
+    foreach (var tank in stage.Tanks)
+      NewColoredRectangle(tank.Bounds, _waterColor);
+      
+    Players = new List<ColoredRectangleViewModel>();
+    stage.Players.Connect()
+      .OnItemAdded(player =>
+        Players.Add(NewColoredRectangle(player.Bounds, OtherPlayerColor))
+      ).Subscribe();
+    
+    ColoredRectangleViewModel NewColoredRectangle(Watch<Bounds> bounds, IBrush brush)
+    {
+      var cr = new ColoredRectangleViewModel(bounds);
+      cr.Brush = brush;
+      sourceActors.Add(cr);
+      return cr;
+    }
+  }
+
+  public ReadOnlyObservableCollection<IActor> Actors => _actors;
+  private readonly ReadOnlyObservableCollection<IActor> _actors;
+  protected readonly List<ColoredRectangleViewModel> Players;
+  public FloodViewModel Flood { get; }
+}

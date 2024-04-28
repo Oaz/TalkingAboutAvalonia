@@ -1,0 +1,75 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:TalkingAboutAvalonia.ViewModels.Pages"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="TalkingAboutAvalonia.Views.Pages.TimeLineGameView"
+             x:DataType="pages:TimeLineGameViewModel">
+    <Design.DataContext>
+        <pages:DesignTimeLineGameViewModel />
+    </Design.DataContext>
+
+    <Viewbox
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        >
+        <ItemsControl ItemsSource="{Binding Items}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas 
+                        Width="{Binding Width}"
+                        Height="{Binding Height}" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.DataTemplates>
+                <DataTemplate x:DataType="pages:TimeLineAxis">
+                    <Rectangle
+                        x:Name="Axis"
+                        Width="{Binding Width}"
+                        Height="3" Fill="Blue" />
+                </DataTemplate>
+                <DataTemplate x:DataType="pages:TimeLineItem">
+                    <RelativePanel IsVisible="{Binding Shown}">
+                        <Rectangle
+                            x:Name="TopLine"
+                            IsVisible="{Binding IsBelow}"
+                            RelativePanel.AlignHorizontalCenterWithPanel="True"
+                            Width="3"
+                            Height="{Binding LineSize}"
+                            Fill="Black" />
+                        <Border
+                            RelativePanel.Below="TopLine"
+                            x:Name="Box"
+                            BorderThickness="1"
+                            BorderBrush="Black"
+                            CornerRadius="5"
+                            Background="LightGray">
+                            <TextBlock
+                                Margin="5" 
+                                Text="{Binding Text}" />
+                        </Border>
+                        <Rectangle
+                            IsVisible="{Binding IsAbove}"
+                            RelativePanel.Below="Box"
+                            RelativePanel.AlignHorizontalCenterWithPanel="True"
+                            Width="3"
+                            Height="{Binding LineSize}"
+                            Fill="Black" />
+                    </RelativePanel>
+
+                </DataTemplate>
+            </ItemsControl.DataTemplates>
+            <ItemsControl.Styles>
+                <Style Selector="ItemsControl > ContentPresenter" x:DataType="pages:TimeLinePart">
+                    <Setter Property="Canvas.Left" Value="{Binding Origin.X}" />
+                    <Setter Property="Canvas.Top" Value="{Binding  Origin.Y}" />
+                </Style>
+            </ItemsControl.Styles>
+        </ItemsControl>
+
+
+    </Viewbox>
+
+
+</UserControl>

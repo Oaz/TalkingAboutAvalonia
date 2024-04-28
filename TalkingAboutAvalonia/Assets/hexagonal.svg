@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="37cm" height="22cm" viewBox="506 81 732 435" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="507.525" y="82" width="729.475" height="433" rx="0" ry="0"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="1228" y="302.381">
+        <tspan x="1228" y="302.381">App</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="918.4" y="175" width="256.6" height="129" rx="0" ry="0"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="1166" y="235.381">
+        <tspan x="1166" y="235.381">User</tspan>
+        <tspan x="1166" y="251.381">Interface</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="937.15" y="248.3" width="118.85" height="37.7" rx="0" ry="0"/>
+      <text font-size="11.2889" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="996.575" y="270.573">
+        <tspan x="996.575" y="270.573">View Models</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="620.6" y="396.3" width="88.4" height="36.7" rx="0" ry="0"/>
+      <text font-size="11.2889" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="664.8" y="418.073">
+        <tspan x="664.8" y="418.073">Network</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 747.571 293 L 865.429,293 L 889,346 L 865.429,399 L 747.571,399 L 724,346 L 747.571,293z"/>
+      <text font-size="20.32" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="806.5" y="339.461">
+        <tspan x="806.5" y="339.461">Core</tspan>
+        <tspan x="806.5" y="364.861">(Model)</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="830.071" y="346">
+      <tspan x="830.071" y="346"></tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="996.575" y1="286" x2="886.588" y2="316.869"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="879.367,318.896 887.644,311.38 886.588,316.869 890.346,321.008 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="697.399" y1="395.294" x2="727.414" y2="377.471"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="733.863,373.642 727.817,383.046 727.414,377.471 722.712,374.448 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="830.071" y="346">
+      <tspan x="830.071" y="346"></tspan>
+    </text>
+    <g>
+      <rect style="fill: #d9d9d9; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="524.5" y="468.5" width="88.4" height="36.7" rx="0" ry="0"/>
+      <text font-size="11.2889" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="568.7" y="490.273">
+        <tspan x="568.7" y="490.273">MQTTnet</tspan>
+      </text>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="568.7" y="486.85">
+      <tspan x="568.7" y="486.85"></tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="642.7" y1="433" x2="577.478" y2="464.289"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="570.716,467.533 577.57,458.699 577.478,464.289 581.895,467.716 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="996.575" y="267.15">
+      <tspan x="996.575" y="267.15"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="996.575" y="267.15">
+      <tspan x="996.575" y="267.15"></tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1052.53" y="186" width="58.95" height="38" rx="0" ry="0"/>
+      <text font-size="11.2887" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1082" y="208.423">
+        <tspan x="1082" y="208.423">Views</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1056.29" y1="224.98" x2="1033.97" y2="242.325"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1028.05,246.928 1032.88,236.843 1033.97,242.325 1039.02,244.739 "/>
+    </g>
+    <g>
+      <rect style="fill: #d9d9d9; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1128.22" y="100.5" width="85.775" height="41.5" rx="0" ry="0"/>
+      <text font-size="11.2887" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1171.11" y="124.673">
+        <tspan x="1171.11" y="124.673">AvaloniaUI</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1110.85" y1="175" x2="1142.25" y2="148.306"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1147.97,143.448 1143.58,153.735 1142.25,148.306 1137.11,146.116 "/>
+    </g>
+  </g>
+</svg>

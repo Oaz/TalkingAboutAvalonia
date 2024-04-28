@@ -1,0 +1,40 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:TalkingAboutAvalonia.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+             x:Class="TalkingAboutAvalonia.Views.SpeakerView"
+             x:DataType="vm:SpeakerViewModel">
+    <Design.DataContext>
+        <vm:DesignSpeakerViewModel />
+    </Design.DataContext>
+    <Grid ColumnDefinitions="50*,35*,15*" RowDefinitions="50*,15*,15*,20*">
+        <Border Grid.Column="0" Grid.Row="0" BorderThickness="1" BorderBrush="Black">
+            <Viewbox Stretch="Uniform">
+                <ContentControl  Content="{Binding Driver.CurrentPage}" />
+            </Viewbox>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" BorderThickness="1" BorderBrush="Black">
+            <Viewbox Stretch="Uniform">
+                <ContentControl Content="{Binding Driver.NextPage}" />
+            </Viewbox>
+        </Border>
+        <Border Grid.Column="0" Grid.Row="1" Grid.RowSpan="3" BorderThickness="1" BorderBrush="Black">
+            <ContentControl Content="{Binding Driver.CurrentPage.Details}" />
+        </Border>
+        <WrapPanel Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock>Current: </TextBlock>
+            <TextBlock Text="{Binding Driver.CurrentPage.Title}"/>
+        </WrapPanel>
+        <WrapPanel Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock>Next: </TextBlock>
+            <TextBlock Text="{Binding Driver.NextPage.Title}"/>
+        </WrapPanel>
+        <Viewbox Grid.Column="1" Grid.Row="3" Stretch="Uniform">
+            <TextBlock Text="{Binding Time}"/>
+        </Viewbox>
+        <ContentControl Grid.Column="2" Grid.Row="3" Content="{Binding Driver}" />
+    </Grid>
+
+</UserControl>

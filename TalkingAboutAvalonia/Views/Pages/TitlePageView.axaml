@@ -1,0 +1,41 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:TalkingAboutAvalonia.ViewModels.Pages"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="400"
+             x:Class="TalkingAboutAvalonia.Views.Pages.TitlePageView"
+             x:DataType="pages:TitlePageViewModel">
+    <Design.DataContext>
+        <pages:DesignTitlePageViewModel/>
+    </Design.DataContext>
+    <!-- <Viewbox  -->
+    <!--     HorizontalAlignment="Center" -->
+    <!--     VerticalAlignment="Center" -->
+    <!--     Stretch="Uniform"  -->
+    <!--     StretchDirection="UpOnly"  -->
+    <!--     Margin="50"> -->
+    <!--     <TextBlock -->
+    <!--         TextAlignment="Center" -->
+    <!--         FontWeight="Heavy" -->
+    <!--         Text="{Binding Text}"/>   -->
+    <!-- </Viewbox> -->
+    
+    <Viewbox
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Stretch="Uniform"
+        Margin="{Binding Margins}"
+    >
+        <TextBlock
+            TextAlignment="Center"
+            FontWeight="Heavy"
+            Text="{Binding Text}"/>  
+    </Viewbox>
+    
+    <!-- <TextBlock -->
+    <!--     TextAlignment="Center" -->
+    <!--     FontWeight="Heavy" -->
+    <!--     Text="{Binding Text}"/>   -->
+
+</UserControl>
